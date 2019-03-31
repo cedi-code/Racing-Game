@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: ca1f9d8d355d4443ab3370aafa7e6f3c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Buggy
+    100002: //RootNode
+    100004: Canisters
+    100006: Gun
+    100008: Rockets
+    100010: Weapons
+    100012: WheelFL
+    100014: WheelFR
+    100016: WheelRL
+    100018: WheelRR
+    100020: ExhaustL
+    100022: ExhaustR
+    100024: Cylinder
+    100026: BackCage
+    100028: SeatBack
+    100030: SeatL
+    100032: SeatR
+    100034: WheelFL_001
+    100036: AxisRL
+    100038: AxisRR
+    100040: CanisterCarrier
+    100042: SteeringWheel
+    400000: Buggy
+    400002: //RootNode
+    400004: Canisters
+    400006: Gun
+    400008: Rockets
+    400010: Weapons
+    400012: WheelFL
+    400014: WheelFR
+    400016: WheelRL
+    400018: WheelRR
+    400020: ExhaustL
+    400022: ExhaustR
+    400024: Cylinder
+    400026: BackCage
+    400028: SeatBack
+    400030: SeatL
+    400032: SeatR
+    400034: WheelFL_001
+    400036: AxisRL
+    400038: AxisRR
+    400040: CanisterCarrier
+    400042: SteeringWheel
+    2300000: Buggy
+    2300002: Canisters
+    2300004: Gun
+    2300006: Rockets
+    2300008: Weapons
+    2300010: WheelFL
+    2300012: WheelFR
+    2300014: WheelRL
+    2300016: WheelRR
+    2300018: ExhaustL
+    2300020: ExhaustR
+    2300022: Cylinder
+    2300024: BackCage
+    2300026: SeatBack
+    2300028: SeatL
+    2300030: SeatR
+    2300032: WheelFL_001
+    2300034: AxisRL
+    2300036: AxisRR
+    2300038: CanisterCarrier
+    2300040: SteeringWheel
+    3300000: Buggy
+    3300002: Canisters
+    3300004: Gun
+    3300006: Rockets
+    3300008: Weapons
+    3300010: WheelFL
+    3300012: WheelFR
+    3300014: WheelRL
+    3300016: WheelRR
+    3300018: ExhaustL
+    3300020: ExhaustR
+    3300022: Cylinder
+    3300024: BackCage
+    3300026: SeatBack
+    3300028: SeatL
+    3300030: SeatR
+    3300032: WheelFL_001
+    3300034: AxisRL
+    3300036: AxisRR
+    3300038: CanisterCarrier
+    3300040: SteeringWheel
+    4300000: Gun
+    4300002: Rockets
+    4300004: Weapons
+    4300006: Canisters
+    4300008: WheelRR
+    4300010: WheelRL
+    4300012: WheelFR
+    4300014: WheelFL
+    4300016: Buggy
+    4300018: ExhaustR
+    4300020: ExhaustL
+    4300022: Cylinder
+    4300024: BackCage
+    4300026: SeatBack
+    4300028: SeatR
+    4300030: SeatL
+    4300032: WheelFL_001
+    4300034: AxisRR
+    4300036: AxisRL
+    4300038: CanisterCarrier
+    4300040: SteeringWheel
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
