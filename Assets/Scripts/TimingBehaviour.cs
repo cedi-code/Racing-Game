@@ -33,6 +33,7 @@ public class TimingBehaviour : MonoBehaviour {
         if(_isFinished)
         {
             countDown.text = _pastTime.ToString("0.0 sec");
+            countDown.enabled = true;
         }
     }
 
@@ -43,8 +44,8 @@ public class TimingBehaviour : MonoBehaviour {
             if (!_isStarted)
                 _isStarted = true;
             else _isFinished = true;
+            Debug.Log("Finished!");
         }
-        Debug.Log("Test");
     }
 
     IEnumerator GameStart()
@@ -55,6 +56,7 @@ public class TimingBehaviour : MonoBehaviour {
            yield return new WaitForSeconds(1);
         }
         countDown.text = "GOO!";
+        _isStarted = true;
         buggy.GetComponent<CarBehaviour>().setStart(true);
         yield return new WaitForSeconds(1);
         countDown.enabled = false;

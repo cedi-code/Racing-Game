@@ -29,7 +29,7 @@ public class CarBehaviour : MonoBehaviour {
 
     public ParticleSystem dustFL, dustFR, dustRL, dustRR;
 
-    public GameObject water;
+    // public GameObject water;
 
 
 
@@ -107,7 +107,7 @@ public class CarBehaviour : MonoBehaviour {
 
         _velocityIsForeward = Vector3.Angle(transform.forward, _rigidBody.velocity) < 50f;
 
-        isWater();
+        // isWater();
         if(start)
         {
             motor();
@@ -202,7 +202,7 @@ public class CarBehaviour : MonoBehaviour {
         wheelFR.motorTorque = amount;
     }
 
-    private void isWater()
+    /*private void isWater()
     {
         if(water.transform.position.y - 0.5f < transform.position.y && maxTorque == defaultMaxTorque)
         {
@@ -222,7 +222,7 @@ public class CarBehaviour : MonoBehaviour {
             maxTorque = defaultMaxTorque;
             maxSpeedKMH = defaultMaxSpeed;
         }
-    }
+    }*/
 
     private float kmh2rpm(float kmh, out int gearNum)
     {
